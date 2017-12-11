@@ -19,10 +19,10 @@
 		<li><nav><a href="http://edgemontvillage.ca/project/giftworks-boutique/"alt="Edgemont Village webpage" /> Edgemont Webpage</a></nav> </li>
 	</ul>	
 	<img src="images/logo2.jpg" alt="Giftworks" title="Giftworks" class="logo"/>
-	<?php include_once "./paragraph.php";?>
+	<?php include_once "./includes/paragraph.php";?>
 	<hr/>
 	
-<?php include "./hourTable.php"; ?>
+<?php include "./includes/hourTable.php"; ?>
 
 <block>
 <!-- this block contains some advertising for some of the art suppliers -->
@@ -138,7 +138,7 @@ perfect give for someone who appreciates good craftsmanship.</p>
 
 <hr>
 
-<?php include "./footer.php"; ?>
+<?php include "./includes/footer.php"; ?>
 
 </body>
 </html>
