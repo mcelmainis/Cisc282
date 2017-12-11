@@ -1,0 +1,139 @@
+
+/* stylesheet for CISC 282 assingment 2 */
+body{
+	background-color:rgb(227,178,182);
+}
+
+h1{
+	text-align:center;
+	color:navy;
+}
+
+#page1 {
+	background-color:rgb(227,178,182)
+}
+
+.logo{
+	display:block;
+	margin:auto;
+	width:60%;	
+}
+
+#siteDescription{
+	text-align:center;
+	font-family:"Times New Roman", sans-serif, serif;
+	line-height:1.5;
+	font-size:18px;
+}
+
+p{
+	line-height:1;
+	color:black;
+}
+
+.outerColumn{
+	float:left;
+	width:33.3%;
+}
+.innerColumn{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+table, th, td{
+	border:1px dashed navy;
+}
+
+td{
+	text-align:center;
+}
+.leftSideBar{
+	float:left;
+	width:25%;
+}
+.rightSideBar{
+	float:left;
+	width:75%;
+}
+.twoColumnOuter {
+
+	float:left;
+	width:50%;
+}
+
+.3ColumnOuter {
+
+	float:left;
+	width:33.3%;
+}
+
+.columnInner {
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.noWrap {
+	clear: both;
+	text-align:center;
+}
+
+#navBar{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#444;
+}
+
+#navBar li{
+	float:left;
+	background-color:#333;	
+}
+
+#navBar li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+
+#navBar li a:hover{
+	background-color:#111;
+}
+
+#hoursTable{
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#suppliersTitle{
+	text-align:center;
+	font-family:"Times New Roman", Sans-Serif, Serif;
+	
+}
+
+.sideBar{
+	float:left;
+	width:25%;
+	margin:0;
+	padding:1em;
+}
+
+.mainContent{
+	float:left;
+	width:75%;
+}
+
+#bear{
+	border: 1px, black, solid;
+}
+
+#painting{
+	border:solid black 2px;
+}
